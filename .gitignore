@@ -1,0 +1,60 @@
+# JARVIS White-Label .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# JARVIS user data (never commit)
+.jarvis/
+*.db
+*.sqlite
+*.sqlite3
+secrets.bin
+config.json
+preferences.json
+approvals.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Playwright
+playwright/.cache/
+
+# Temporary files
+*.tmp
+*.temp

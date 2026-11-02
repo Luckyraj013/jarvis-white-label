@@ -1,0 +1,22 @@
+# JARVIS White-Label Requirements
+# Core dependencies
+livekit-agents[google]>=1.0.0
+livekit-plugins-google>=1.0.0
+google-genai>=1.0.0
+python-dotenv>=1.0.0
+
+# Browser automation
+playwright>=1.40.0
+
+# Web search
+aiohttp>=3.9.0
+beautifulsoup4>=4.12.0
+
+# Windows system control
+pycaw>=20181226
+comtypes>=1.2.0
+wmi>=1.5.1
+send2trash>=1.8.0
+
+# Utilities
+python-dateutil>=2.8.0
